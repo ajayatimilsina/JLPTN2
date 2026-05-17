@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JLPT Study Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-jlpt sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">JLPT Study Hub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navMain">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="kanji.html">Kanji Study</a></li>
+          <li class="nav-item"><a class="nav-link" href="game.html">Kanji Game</a></li>
+          <li class="nav-item"><a class="nav-link" href="test.html">N2 Mock Test</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header class="hero-section">
+    <div class="container">
+      <span class="badge hero-badge mb-3">JLPT N4–N2</span>
+      <h1 class="display-4 fw-bold mb-3" style="font-family:var(--font-display)">Master Japanese with purpose</h1>
+      <p class="lead col-lg-8 mb-4 opacity-90">N4 kanji flashcards, N4–N1 game, and July 2024 N2 mock test. Bootstrap, HTML, CSS and JavaScript.</p>
+      <div class="d-flex gap-2 flex-wrap">
+        <a href="kanji.html" class="btn btn-jlpt-primary btn-lg">Start Kanji</a>
+        <a href="test.html" class="btn btn-outline-light btn-lg">Take N2 Test</a>
+      </div>
+    </div>
+  </header>
+  <main class="container py-5">
+    <div class="row g-4 mb-5">
+      <div class="col-md-4"><article class="card feature-card"><div class="card-body p-4">
+        <div class="card-icon icon-kanji mb-3">漢</div>
+        <h2 class="h4">Kanji with Examples</h2>
+        <p class="text-muted">Inspired by <a href="https://ajayatimilsina.github.io/KANJI/" target="_blank" rel="noopener">KANJI</a>.</p>
+        <a href="kanji.html" class="btn btn-jlpt-outline">Open flashcards</a>
+      </div></article></div>
+      <div class="col-md-4"><article class="card feature-card"><div class="card-body p-4">
+        <div class="card-icon icon-game mb-3">★</div>
+        <h2 class="h4">Kanji Master Game</h2>
+        <p class="text-muted">Like <a href="https://ajayatimilsina.github.io/N4-N1Game/" target="_blank" rel="noopener">N4–N1 Game</a>.</p>
+        <a href="game.html" class="btn btn-jlpt-outline">Play now</a>
+      </div></article></div>
+      <div class="col-md-4"><article class="card feature-card"><div class="card-body p-4">
+        <div class="card-icon icon-test mb-3">試</div>
+        <h2 class="h4">N2 Mock Test July 2024</h2>
+        <p class="text-muted">From <a href="https://nihonez.com/jlpt-test/jlpt-n2-past-test-july-2024-real-exam/?start=test" target="_blank" rel="noopener">Nihonez N2</a>.</p>
+        <a href="test.html" class="btn btn-jlpt-outline">Start test</a>
+      </div></article></div>
+    </div>
+  </main>
+  <footer class="footer-jlpt"><div class="container text-center small"><p class="mb-0">JLPT Study Hub</p></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
